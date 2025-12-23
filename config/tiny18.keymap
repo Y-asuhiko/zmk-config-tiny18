@@ -117,6 +117,24 @@
             key-positions = <6 0>;
             layers = <0 1>;
         };
+
+        lang1 {
+            bindings = <&kp LANG1>;
+            key-positions = <16 17>;
+            layers = <0>;
+        };
+
+        lang {
+            bindings = <&kp LANG2>;
+            key-positions = <15 14>;
+            layers = <0>;
+        };
+
+        f10 {
+            bindings = <&kp F10>;
+            key-positions = <14 17>;
+            layers = <0>;
+        };
     };
 
     keymap {
