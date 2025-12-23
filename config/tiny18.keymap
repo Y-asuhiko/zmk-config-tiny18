@@ -4,112 +4,112 @@
 #include <behaviors.dtsi>
 #include <dt-bindings/zmk/bt.h>
 #include <dt-bindings/zmk/keys.h>
+#include <dt-bindings/zmk/outputs.h>
 
 / {
     combos {
         compatible = "zmk,combos";
 
-        q {
-            bindings = <&kp Q>;
+        kakko1-1 {
+            bindings = <&kp LEFT_BRACKET>;
+            key-positions = <0 1>;
+            layers = <0>;
+        };
+
+        kakko1-2 {
+            bindings = <&kp RIGHT_BRACKET>;
+            key-positions = <2 0>;
+            layers = <0>;
+        };
+
+        kakko2-1 {
+            bindings = <&kp LEFT_PARENTHESIS>;
             key-positions = <1 0>;
-            layers = <0>;
+            layers = <1>;
         };
 
-        f {
-            bindings = <&kp F>;
-            key-positions = <9 7>;
-            layers = <0>;
+        kakko2-2 {
+            bindings = <&kp RIGHT_PARENTHESIS>;
+            key-positions = <2 0>;
+            layers = <1>;
         };
 
-        y {
-            bindings = <&kp Y>;
-            key-positions = <10 9>;
-            layers = <0>;
+        del {
+            bindings = <&kp DEL>;
+            key-positions = <0 7>;
+            layers = <1>;
         };
 
-        p {
-            bindings = <&kp P>;
-            key-positions = <4 5>;
-            layers = <0>;
-        };
-
-        b {
-            bindings = <&kp B>;
-            key-positions = <8 9>;
-            layers = <0>;
-        };
-
-        j {
-            bindings = <&kp J>;
-            key-positions = <10 11>;
-            layers = <0>;
-        };
-
-        lang2 {
-            bindings = <&mt LEFT_GUI LANGUAGE_2>;
-            key-positions = <7 8>;
-            layers = <0 1 2 3 4>;
-        };
-
-        lang1 {
-            bindings = <&mt RIGHT_GUI LANG1>;
-            key-positions = <11 12>;
-            layers = <0 1 2 3 4>;
-        };
-
-        lsft {
-            timeout-ms = <35>;
-            bindings = <&kp LSHFT>;
-            key-positions = <6 7>;
-            layers = <0>;
-        };
-
-        lctr {
-            bindings = <&kp LCTRL>;
-            key-positions = <14 15>;
-            layers = <0 1 2 3 4>;
-        };
-
-        ralt {
-            bindings = <&kp RIGHT_ALT>;
-            key-positions = <16 17>;
-            layers = <0 1 2 3 4>;
-        };
-
-        layer5 {
-            bindings = <&mo 5>;
-            key-positions = <5 13>;
-            layers = <0>;
-        };
-
-        lalt {
-            bindings = <&kp LEFT_ALT>;
-            key-positions = <1 2 0>;
-            layers = <0 1 2 3 4>;
-        };
-
-        rctr {
-            bindings = <&kp RCTRL>;
-            key-positions = <3 4 5>;
-            layers = <0 1 2 3 4>;
-        };
-
-        x {
-            bindings = <&kp X>;
-            key-positions = <14 8>;
-            layers = <0>;
+        z {
+            bindings = <&kp Z>;
+            key-positions = <7 6>;
+            layers = <1 0>;
         };
 
         c {
             bindings = <&kp C>;
-            key-positions = <15 9>;
-            layers = <0>;
+            key-positions = <7 8>;
+            layers = <1 0>;
         };
 
         v {
             bindings = <&kp V>;
-            key-positions = <16 10>;
-            layers = <0>;
+            key-positions = <8 9>;
+            layers = <1 0>;
+        };
+
+        x {
+            bindings = <&kp X>;
+            key-positions = <1 2>;
+            layers = <0 1>;
+        };
+
+        w {
+            bindings = <&kp W>;
+            key-positions = <1 2>;
+            layers = <0 1>;
+        };
+
+        q {
+            bindings = <&kp Q>;
+            key-positions = <3 5>;
+            layers = <0 1>;
+        };
+
+        l {
+            bindings = <&kp L>;
+            key-positions = <5 4>;
+            layers = <0 1>;
+        };
+
+        f {
+            bindings = <&kp F>;
+            key-positions = <4 10>;
+            layers = <0 1>;
+        };
+
+        ques {
+            bindings = <&kp QUESTION>;
+            key-positions = <10 11>;
+            layers = <0 1>;
+        };
+
+        excl {
+            bindings = <&kp EXCLAMATION>;
+            key-positions = <11 12>;
+            layers = <0 1>;
+        };
+
+        comm {
+            bindings = <&kp COMMA>;
+            key-positions = <12 13>;
+            layers = <0 1>;
+        };
+
+        L4 {
+            bindings = <&mo 4>;
+            key-positions = <12 5>;
+            layers = <0 1>;
         };
     };
 
@@ -142,7 +142,7 @@
 
         layer_4 {
             bindings = <
-&kp F1  &kp F2  &kp F3  &trans  &trans  &trans  &kp F7  &kp F4  &kp F5  &kp F6  &kp F12  &trans  &trans  &trans  &kp F8  &kp F9  &kp F10  &kp F11
+&kp K_MUTE  &kp C_VOLUME_DOWN  &kp C_VOLUME_UP  &out OUT_BLE  &out OUT_USB  &none  &bt BT_SEL 0  &bt BT_SEL 1  &bt BT_SEL 2  &bt BT_SEL 3  &out OUT_TOG  &none  &none  &none  &bt BT_SEL 4  &none  &none  &kp F11
             >;
         };
 
