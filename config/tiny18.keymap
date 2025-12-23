@@ -111,6 +111,12 @@
             key-positions = <12 5>;
             layers = <0 1>;
         };
+
+        esc {
+            bindings = <&kp ESCAPE>;
+            key-positions = <6 0>;
+            layers = <0 1>;
+        };
     };
 
     keymap {
