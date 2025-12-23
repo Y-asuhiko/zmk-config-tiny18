@@ -37,7 +37,7 @@
         del {
             bindings = <&kp DEL>;
             key-positions = <0 7>;
-            layers = <1>;
+            layers = <0 2>;
         };
 
         z {
@@ -66,7 +66,7 @@
 
         w {
             bindings = <&kp W>;
-            key-positions = <1 2>;
+            key-positions = <4 3>;
             layers = <0 1>;
         };
 
@@ -78,7 +78,7 @@
 
         l {
             bindings = <&kp L>;
-            key-positions = <5 4>;
+            key-positions = <1 2>;
             layers = <0 1>;
         };
 
@@ -135,6 +135,12 @@
             key-positions = <14 17>;
             layers = <0>;
         };
+
+        w2 {
+            bindings = <&kp W>;
+            key-positions = <4 5>;
+            layers = <0 1>;
+        };
     };
 
     keymap {
@@ -154,7 +160,7 @@
 
         layer_2 {
             bindings = <
-&kp PLUS  &kp MINUS  &kp N5  &kp NUMBER_6  &kp ASTERISK  &kp UP_ARROW  &kp NUMBER_1  &kp NUMBER_2  &kp NUMBER_3  &kp NUMBER_4  &kp N7  &kp N8  &kp N9  &kp N0  &trans  &trans  &trans  &trans
+&kp PLUS  &kp MINUS  &kp N5  &kp NUMBER_6  &kp ASTERISK  &kp MINUS  &kp NUMBER_1  &kp NUMBER_2  &kp NUMBER_3  &kp NUMBER_4  &kp N7  &kp N8  &kp N9  &kp N0  &trans  &trans  &trans  &trans
             >;
         };
 
