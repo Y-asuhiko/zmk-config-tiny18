@@ -136,7 +136,7 @@
 
         layer_3 {
             bindings = <
-&mt RSHIFT TAB  &kp NUMBER_2  &kp NUMBER_3  &kp PLUS  &trans  &mo 4  &kp GRAVE  &kp SEMICOLON  &kp SQT  &kp NON_US_BACKSLASH  &kp ASTRK  &trans  &kp RIGHT_SHIFT  &kp RIGHT_GUI  &kp COLON  &kp DOUBLE_QUOTES  &kp N0  &kp PERIOD
+&mt RSHIFT TAB  &kp AT_SIGN  &kp EQUAL  &kp LEFT_ARROW  &kp UP_ARROW  &kp RIGHT_ARROW  &kp GRAVE  &kp SEMICOLON  &kp SQT  &kp NON_US_BACKSLASH  &kp HOME  &kp DOWN  &kp END  &kp RIGHT_GUI  &kp COLON  &kp DOUBLE_QUOTES  &trans  &trans
             >;
         };
 
