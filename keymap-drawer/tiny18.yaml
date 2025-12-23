@@ -44,7 +44,7 @@ layers:
   - '5'
   - '6'
   - '*'
-  - UP ARROW
+  - '-'
   - '1'
   - '2'
   - '3'
@@ -129,7 +129,7 @@ combos:
   l: ['1']
 - p: [0, 7]
   k: DEL
-  l: ['1']
+  l: [default, '2']
 - p: [7, 6]
   k: Z
   l: ['1', default]
@@ -142,13 +142,13 @@ combos:
 - p: [1, 2]
   k: X
   l: [default, '1']
-- p: [1, 2]
+- p: [4, 3]
   k: W
   l: [default, '1']
 - p: [3, 5]
   k: Q
   l: [default, '1']
-- p: [5, 4]
+- p: [1, 2]
   k: L
   l: [default, '1']
 - p: [4, 10]
@@ -178,3 +178,6 @@ combos:
 - p: [14, 17]
   k: F10
   l: [default]
+- p: [4, 5]
+  k: W
+  l: [default, '1']
