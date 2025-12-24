@@ -148,7 +148,7 @@ combos:
 - p: [3, 5]
   k: Q
   l: [default, '1']
-- p: [1, 2]
+- p: [5, 11]
   k: L
   l: [default, '1']
 - p: [4, 10]
