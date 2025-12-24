@@ -148,7 +148,7 @@
 
         default_layer {
             bindings = <
-&mt RIGHT_SHIFT TAB  &kp U  &kp MINUS  &kp K  &kp R  &kp Y  &kp E  &kp I  &kp A  &kp O  &kp T  &kp N  &kp S  &mt RIGHT_ALT H  &mt BACKSPACE RCTRL  &lt 1 SPACE  &lt 3 ENTER  &lt 2 PERIOD
+&mt RIGHT_SHIFT TAB  &kp U  &kp MINUS  &kp K  &kp R  &kp Y  &kp E  &kp I  &kp A  &kp O  &kp T  &kp N  &kp S  &mt LEFT_ALT H  &mt LCTRL BACKSPACE  &lt 1 SPACE  &lt 3 ENTER  &lt 2 PERIOD
             >;
         };
 
@@ -166,7 +166,7 @@
 
         layer_3 {
             bindings = <
-&mt RSHIFT TAB  &kp AT_SIGN  &kp EQUAL  &kp LEFT_ARROW  &kp UP_ARROW  &kp RIGHT_ARROW  &kp GRAVE  &kp SEMICOLON  &kp SQT  &kp NON_US_BACKSLASH  &kp HOME  &kp DOWN  &kp END  &kp RIGHT_GUI  &kp COLON  &kp DOUBLE_QUOTES  &trans  &trans
+&mt RSHIFT TAB  &kp AT_SIGN  &kp EQUAL  &kp LEFT_ARROW  &kp UP_ARROW  &kp RIGHT_ARROW  &kp GRAVE  &kp SEMICOLON  &kp SQT  &kp NON_US_BACKSLASH  &kp HOME  &kp DOWN  &kp END  &kp LEFT_GUI  &kp COLON  &kp DOUBLE_QUOTES  &trans  &trans
             >;
         };
 
