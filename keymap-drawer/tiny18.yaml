@@ -14,8 +14,8 @@ layers:
   - T
   - N
   - S
-  - {t: H, h: RIGHT ALT}
-  - {t: RCTRL, h: BACKSPACE}
+  - {t: H, h: LEFT ALT}
+  - {t: BACKSPACE, h: LCTRL}
   - {t: SPACE, h: '1'}
   - {t: ENTER, h: '3'}
   - {t: ., h: '2'}
@@ -71,7 +71,7 @@ layers:
   - HOME
   - DOWN
   - END
-  - RIGHT GUI
+  - LEFT GUI
   - ':'
   - '"'
   - {type: held}
