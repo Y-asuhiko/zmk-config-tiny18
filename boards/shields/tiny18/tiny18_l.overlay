@@ -1,1 +1,11 @@
 #include "tiny18.dtsi"
+
+/ {
+    behaviors {
+        rgb_led: rgb_led {
+            compatible = "zmk,behavior-rgb-led";
+            label = "RGB_LED";
+            #binding-cells = <0>;
+        };
+    };
+};
