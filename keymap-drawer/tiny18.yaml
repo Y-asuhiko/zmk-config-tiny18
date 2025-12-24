@@ -129,7 +129,7 @@ combos:
   l: ['1']
 - p: [0, 7]
   k: DEL
-  l: [default, '2']
+  l: [default, '1']
 - p: [7, 6]
   k: Z
   l: ['1', default]
