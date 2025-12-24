@@ -5,3 +5,17 @@
     col-offset = <9>;};
 
 &xiao_serial { status = "disabled"; };
+
+/ {
+    leds {
+        compatible = "gpio-leds";
+        status_led: status_led {
+            gpios = <&gpio0 15 GPIO_ACTIVE_HIGH>;
+            label = "STATUS_LED";
+        };
+    };
+};
+
+&aliases {
+    led0 = &status_led;
+};
