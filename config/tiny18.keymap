@@ -78,7 +78,7 @@
 
         l {
             bindings = <&kp L>;
-            key-positions = <1 2>;
+            key-positions = <5 11>;
             layers = <0 1>;
         };
 
