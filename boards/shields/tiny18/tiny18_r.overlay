@@ -5,3 +5,13 @@
     col-offset = <9>;};
 
 &xiao_serial { status = "disabled"; };
+
+/ {
+    behaviors {
+        rgb_led: rgb_led {
+            compatible = "zmk,behavior-rgb-led";
+            label = "RGB_LED";
+            #binding-cells = <0>;
+        };
+    };
+};
