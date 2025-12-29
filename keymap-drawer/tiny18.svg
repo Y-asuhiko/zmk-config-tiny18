@@ -280,12 +280,12 @@ path.combo {
 <text x="60" y="82" class="combo tap">ESCAPE</text>
 </g>
 <g class="combo combopos-16">
-<rect rx="6" ry="6" x="436" y="137" width="28" height="26" class="combo"/>
-<text x="450" y="150" class="combo tap">LANG1</text>
+<rect rx="6" ry="6" x="196" y="137" width="28" height="26" class="combo"/>
+<text x="210" y="150" class="combo tap">LANG1</text>
 </g>
 <g class="combo combopos-17">
-<rect rx="6" ry="6" x="196" y="137" width="28" height="26" class="combo"/>
-<text x="210" y="150" class="combo tap">LANG2</text>
+<rect rx="6" ry="6" x="436" y="137" width="28" height="26" class="combo"/>
+<text x="450" y="150" class="combo tap">LANG2</text>
 </g>
 <g class="combo combopos-18">
 <path d="M330,150 l-130,0" class="combo"/>

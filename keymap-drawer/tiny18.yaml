@@ -169,10 +169,10 @@ combos:
 - p: [6, 0]
   k: ESCAPE
   l: [default, '1']
-- p: [16, 17]
+- p: [15, 14]
   k: LANG1
   l: [default]
-- p: [15, 14]
+- p: [16, 17]
   k: LANG2
   l: [default]
 - p: [14, 17]
