@@ -33,7 +33,7 @@ layers:
   - D
   - Z
   - J
-  - {t: RIGHT ALT, h: B}
+  - B
   - {t: ▽, type: trans}
   - {type: held}
   - {t: ▽, type: trans}
