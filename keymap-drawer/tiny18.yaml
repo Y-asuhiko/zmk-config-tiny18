@@ -14,7 +14,7 @@ layers:
   - T
   - N
   - S
-  - {t: H, h: LEFT ALT}
+  - H
   - {t: BACKSPACE, h: LCTRL}
   - {t: SPACE, h: '1'}
   - {t: ENTER, h: '3'}
@@ -181,3 +181,6 @@ combos:
 - p: [4, 5]
   k: W
   l: [default, '1']
+- p: [13, 5]
+  k: RIGHT ALT
+  l: [default, '2']
