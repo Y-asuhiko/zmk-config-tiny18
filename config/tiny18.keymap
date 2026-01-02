@@ -147,6 +147,11 @@
             key-positions = <13 5>;
             layers = <0 2>;
         };
+
+        shft {
+            bindings = <&kp RIGHT_SHIFT>;
+            key-positions = <15 16>;
+        };
     };
 
     keymap {
