@@ -184,3 +184,5 @@ combos:
 - p: [13, 5]
   k: RIGHT ALT
   l: [default, '2']
+- p: [15, 16]
+  k: RIGHT SHIFT
