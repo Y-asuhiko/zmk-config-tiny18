@@ -152,6 +152,12 @@
             bindings = <&kp RIGHT_SHIFT>;
             key-positions = <15 16>;
         };
+
+        BT_A_CLR {
+            bindings = <&bt BT_CLR_ALL>;
+            key-positions = <2 3>;
+            layers = <4>;
+        };
     };
 
     keymap {
