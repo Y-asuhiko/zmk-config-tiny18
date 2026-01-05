@@ -186,3 +186,6 @@ combos:
   l: [default, '2']
 - p: [15, 16]
   k: RIGHT SHIFT
+- p: [2, 3]
+  k: BT CLR ALL
+  l: ['4']
