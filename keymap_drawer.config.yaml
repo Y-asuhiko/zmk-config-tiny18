@@ -5,3 +5,4 @@ draw_config:
   footer_text: "tiny18 (auto-generated)"
 
   separate_combos: true
+　combo_offset: [0, 0.6]
