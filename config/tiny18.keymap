@@ -141,6 +141,11 @@
             key-positions = <4 5>;
             layers = <0 1>;
         };
+
+        BS {
+            bindings = <&kp BACKSPACE>;
+            key-positions = <6 14>;
+        };
     };
 
     keymap {
