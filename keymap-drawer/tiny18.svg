@@ -297,6 +297,12 @@ path.combo {
 <rect rx="6" ry="6" x="526" y="17" width="28" height="26" class="combo"/>
 <text x="540" y="30" class="combo tap">W</text>
 </g>
+<g class="combo combopos-20">
+<path d="M105,142 l-55,-6" class="combo"/>
+<path d="M105,142 l55,6" class="combo"/>
+<rect rx="6" ry="6" x="91" y="130" width="28" height="26" class="combo"/>
+<text x="105" y="142" class="combo tap"><tspan style="font-size: 78%">BACKSPACE</tspan></text>
+</g>
 </g>
 </g>
 <g transform="translate(30, 236)" class="layer-1">
@@ -451,6 +457,12 @@ path.combo {
 <rect rx="6" ry="6" x="526" y="17" width="28" height="26" class="combo"/>
 <text x="540" y="30" class="combo tap">W</text>
 </g>
+<g class="combo combopos-17">
+<path d="M105,142 l-55,-6" class="combo"/>
+<path d="M105,142 l55,6" class="combo"/>
+<rect rx="6" ry="6" x="91" y="130" width="28" height="26" class="combo"/>
+<text x="105" y="142" class="combo tap"><tspan style="font-size: 78%">BACKSPACE</tspan></text>
+</g>
 </g>
 </g>
 <g transform="translate(30, 472)" class="layer-2">
@@ -531,6 +543,12 @@ path.combo {
 </g>
 <g transform="translate(480, 150)" class="key held keypos-17">
 <rect rx="6" ry="6" x="-28" y="-28" width="56" height="56" class="key held"/>
+</g>
+<g class="combo combopos-0">
+<path d="M105,142 l-55,-6" class="combo"/>
+<path d="M105,142 l55,6" class="combo"/>
+<rect rx="6" ry="6" x="91" y="130" width="28" height="26" class="combo"/>
+<text x="105" y="142" class="combo tap"><tspan style="font-size: 78%">BACKSPACE</tspan></text>
 </g>
 </g>
 </g>
@@ -616,6 +634,12 @@ path.combo {
 <g transform="translate(480, 150)" class="key trans keypos-17">
 <rect rx="6" ry="6" x="-28" y="-28" width="56" height="56" class="key trans"/>
 <text x="0" y="0" class="key trans tap">▽</text>
+</g>
+<g class="combo combopos-0">
+<path d="M105,142 l-55,-6" class="combo"/>
+<path d="M105,142 l55,6" class="combo"/>
+<rect rx="6" ry="6" x="91" y="130" width="28" height="26" class="combo"/>
+<text x="105" y="142" class="combo tap"><tspan style="font-size: 78%">BACKSPACE</tspan></text>
 </g>
 </g>
 </g>
@@ -706,6 +730,12 @@ path.combo {
 <g transform="translate(480, 150)" class="key keypos-17">
 <rect rx="6" ry="6" x="-28" y="-28" width="56" height="56" class="key"/>
 </g>
+<g class="combo combopos-0">
+<path d="M105,142 l-55,-6" class="combo"/>
+<path d="M105,142 l55,6" class="combo"/>
+<rect rx="6" ry="6" x="91" y="130" width="28" height="26" class="combo"/>
+<text x="105" y="142" class="combo tap"><tspan style="font-size: 78%">BACKSPACE</tspan></text>
+</g>
 </g>
 </g>
 <g transform="translate(30, 1180)" class="layer-5">
@@ -791,6 +821,12 @@ path.combo {
 <g transform="translate(480, 150)" class="key trans keypos-17">
 <rect rx="6" ry="6" x="-28" y="-28" width="56" height="56" class="key trans"/>
 <text x="0" y="0" class="key trans tap">▽</text>
+</g>
+<g class="combo combopos-0">
+<path d="M105,142 l-55,-6" class="combo"/>
+<path d="M105,142 l55,6" class="combo"/>
+<rect rx="6" ry="6" x="91" y="130" width="28" height="26" class="combo"/>
+<text x="105" y="142" class="combo tap"><tspan style="font-size: 78%">BACKSPACE</tspan></text>
 </g>
 </g>
 </g>
