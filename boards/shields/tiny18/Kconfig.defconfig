@@ -1,36 +1,64 @@
+# -------------------------
+# Tiny18 完全版 prj.conf
+# -------------------------
+
+# -------------------------
+# 右側 Central 用設定
+# -------------------------
 if SHIELD_TINY18_R
 
+# キーボード名
 config ZMK_KEYBOARD_NAME
     string "tiny18"
 
+# BLE 全体を有効化
 config ZMK_BLE
     bool "Enable BLE"
     default y
 
+# PC向け HID キーボードを有効化
 config ZMK_HID_KEYBOARD
     bool "Enable HID Keyboard"
     default y
 
+# Central 役割
 config ZMK_SPLIT_ROLE_CENTRAL
     bool "Split Central Role"
     default y
 
+# BLE Advertising 無制限
+config ZMK_BLE_ADV_TIMEOUT
+    int "BLE advertising timeout (s)"
+    default 0
+
+# BLE Advertising interval（100ms推奨）
+config ZMK_BLE_ADV_INTERVAL
+    int "BLE advertising interval (ms)"
+    default 100
+
 endif
 
+# -------------------------
+# 左右共通設定
+# -------------------------
 if SHIELD_TINY18_R || SHIELD_TINY18_L
 
+# スプリット有効
 config ZMK_SPLIT
     bool "Enable Split"
     default y
 
+# 入力有効
 config INPUT
     bool "Enable Input"
     default y
 
+# ポインティングデバイス有効
 config ZMK_POINTING
     bool "Enable Pointing Device"
     default y
 
+# RGB LED / バッテリー LED 設定
 config RGBLED_WIDGET_BATTERY_LEVEL_HIGH
     int "Battery Level High Threshold"
     default 30
@@ -40,3 +68,14 @@ config RGBLED_WIDGET_BATTERY_LEVEL_CRITICAL
     default 10
 
 endif
+
+
+# メディアキー有効化（PC/iOSで使用可）
+config ZMK_HID_CONSUMER
+    bool "Enable Consumer HID"
+    default y
+
+# HID マウス有効化（必要な場合）
+config ZMK_HID_MOUSE
+    bool "Enable Mouse HID"
+    default y
