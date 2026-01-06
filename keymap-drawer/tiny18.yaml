@@ -14,7 +14,7 @@ layers:
   - T
   - N
   - S
-  - H
+  - {t: H, h: LEFT ALT}
   - {t: BACKSPACE, h: LCTRL}
   - {t: SPACE, h: '1'}
   - {t: ENTER, h: '3'}
@@ -33,7 +33,7 @@ layers:
   - D
   - Z
   - J
-  - B
+  - {t: RIGHT ALT, h: B}
   - {t: ▽, type: trans}
   - {type: held}
   - {t: ▽, type: trans}
@@ -169,10 +169,10 @@ combos:
 - p: [6, 0]
   k: ESCAPE
   l: [default, '1']
-- p: [15, 14]
+- p: [16, 17]
   k: LANG1
   l: [default]
-- p: [16, 17]
+- p: [15, 14]
   k: LANG2
   l: [default]
 - p: [14, 17]
@@ -181,11 +181,3 @@ combos:
 - p: [4, 5]
   k: W
   l: [default, '1']
-- p: [13, 5]
-  k: RIGHT ALT
-  l: [default, '2']
-- p: [15, 16]
-  k: RIGHT SHIFT
-- p: [2, 3]
-  k: BT CLR ALL
-  l: ['4']

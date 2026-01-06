@@ -3,5 +3,3 @@ draw_config:
   key_w: 60
   key_h: 60
   footer_text: "tiny18 (auto-generated)"
-  separate_combos: false
-  combo_offset: [0, 0.6]

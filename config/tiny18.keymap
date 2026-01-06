@@ -120,13 +120,13 @@
 
         lang1 {
             bindings = <&kp LANG1>;
-            key-positions = <15 14>;
+            key-positions = <16 17>;
             layers = <0>;
         };
 
         lang {
             bindings = <&kp LANG2>;
-            key-positions = <16 17>;
+            key-positions = <15 14>;
             layers = <0>;
         };
 
@@ -141,23 +141,6 @@
             key-positions = <4 5>;
             layers = <0 1>;
         };
-
-        alt {
-            bindings = <&kp RIGHT_ALT>;
-            key-positions = <13 5>;
-            layers = <0 2>;
-        };
-
-        shft {
-            bindings = <&kp RIGHT_SHIFT>;
-            key-positions = <15 16>;
-        };
-
-        BT_A_CLR {
-            bindings = <&bt BT_CLR_ALL>;
-            key-positions = <2 3>;
-            layers = <4>;
-        };
     };
 
     keymap {
@@ -165,13 +148,13 @@
 
         default_layer {
             bindings = <
-&mt RIGHT_SHIFT TAB  &kp U  &kp MINUS  &kp K  &kp R  &kp Y  &kp E  &kp I  &kp A  &kp O  &kp T  &kp N  &kp S  &kp H  &mt LCTRL BACKSPACE  &lt 1 SPACE  &lt 3 ENTER  &lt 2 PERIOD
+&mt RIGHT_SHIFT TAB  &kp U  &kp MINUS  &kp K  &kp R  &kp Y  &kp E  &kp I  &kp A  &kp O  &kp T  &kp N  &kp S  &mt LEFT_ALT H  &mt LCTRL BACKSPACE  &lt 1 SPACE  &lt 3 ENTER  &lt 2 PERIOD
             >;
         };
 
         layer_1 {
             bindings = <
-&trans  &trans  &kp EQUAL  &kp G  &kp M  &kp P  &trans  &trans  &trans  &trans  &kp D  &kp Z  &kp J  &kp B  &trans  &trans  &trans  &kp COMMA
+&trans  &trans  &kp EQUAL  &kp G  &kp M  &kp P  &trans  &trans  &trans  &trans  &kp D  &kp Z  &kp J  &mt B RIGHT_ALT  &trans  &trans  &trans  &kp COMMA
             >;
         };
 
