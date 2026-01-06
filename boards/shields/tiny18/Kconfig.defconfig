@@ -1,49 +1,42 @@
-# -------------------------
-# Tiny18 Right (Central) Configuration
-# -------------------------
-
 if SHIELD_TINY18_R
 
-# キーボード名
 config ZMK_KEYBOARD_NAME
-    default "tiny18"
+    string "tiny18oons"
 
-# BLE 有効
 config ZMK_BLE
+    bool "Enable BLE"
     default y
 
-# PC向け HID キーボード有効
 config ZMK_HID_KEYBOARD
+    bool "Enable HID Keyboard"
     default y
 
-# セントラル役
 config ZMK_SPLIT_ROLE_CENTRAL
+    bool "Split Central Role"
     default y
 
 endif
 
-# -------------------------
-# 共通設定（左右共通）
-# -------------------------
 if SHIELD_TINY18_R || SHIELD_TINY18_L
 
-# スプリット有効
 config ZMK_SPLIT
+    bool "Enable Split"
     default y
 
-# 入力有効
 config INPUT
+    bool "Enable Input"
     default y
 
-# ポインティングデバイス有効
 config ZMK_POINTING
+    bool "Enable Pointing Device"
     default y
 
-# バッテリー LED設定
 config RGBLED_WIDGET_BATTERY_LEVEL_HIGH
+    int "Battery Level High Threshold"
     default 30
 
 config RGBLED_WIDGET_BATTERY_LEVEL_CRITICAL
+    int "Battery Level Critical Threshold"
     default 10
 
 endif
