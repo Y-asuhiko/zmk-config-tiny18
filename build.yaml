@@ -1,5 +1,4 @@
-# This file generates the GitHub Actions matrix.
-# ZMK user-config build matrix for tiny18 (XIAO BLE)
+# build.yaml - tiny18 unified for GitHub Actions
 
 ---
 include:
@@ -8,9 +7,11 @@ include:
     shield: "tiny18_r rgbled_adapter"
     snippet: studio-rpc-usb-uart
     cmake-args: >
+      -DCONFIG_ZMK_SPLIT=y
+      -DCONFIG_ZMK_SPLIT_ROLE_CENTRAL=y
+      -DCONFIG_ZMK_BLE_ROLE_CENTRAL=y
       -DCONFIG_ZMK_STUDIO=y
       -DCONFIG_BT=y
-      -DCONFIG_BT_PERIPHERAL=y
       -DCONFIG_ZMK_BLE=y
       -DCONFIG_BT_DEVICE_NAME=\"tiny18\"
 
@@ -18,8 +19,10 @@ include:
   - board: xiao_ble
     shield: "tiny18_l rgbled_adapter"
     cmake-args: >
+      -DCONFIG_ZMK_SPLIT=y
+      -DCONFIG_ZMK_SPLIT_ROLE_PERIPHERAL=y
+      -DCONFIG_ZMK_BLE_ROLE_PERIPHERAL=y
       -DCONFIG_BT=y
-      -DCONFIG_BT_PERIPHERAL=y
       -DCONFIG_ZMK_BLE=y
       -DCONFIG_BT_DEVICE_NAME=\"tiny18\"
 
