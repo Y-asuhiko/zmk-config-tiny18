@@ -1,36 +1,33 @@
-if SHIELD_TINY18_R
+# ==================================================
+# BLE（Win必須）
+# ==================================================
+CONFIG_BT=y
+CONFIG_BT_PERIPHERAL=y
+CONFIG_BT_CENTRAL=y
+CONFIG_ZMK_BLE=y
 
-config ZMK_KEYBOARD_NAME
-    default "tiny18"
+CONFIG_BT_DEVICE_NAME="tiny18"
 
-config ZMK_BLE
-    default y
-
-config ZMK_SPLIT_ROLE_CENTRAL
-    default y
-
-endif
-
-if SHIELD_TINY18_R || SHIELD_TINY18_L
-
+# ==================================================
+# HID（Win必須）
+# ==================================================
 CONFIG_ZMK_HID_KEYBOARD=y
 CONFIG_ZMK_HID_MOUSE=y
 CONFIG_ZMK_HID_CONSUMER=y
 
-config ZMK_SPLIT
-    default y
+# ==================================================
+# Split
+# ==================================================
+CONFIG_ZMK_SPLIT=y
+CONFIG_ZMK_SPLIT_BLE=y
 
-config INPUT
-    default y
+# ==================================================
+# Pointing
+# ==================================================
+CONFIG_INPUT=y
+CONFIG_ZMK_POINTING=y
 
-config ZMK_POINTING
-    default y
-
-
-config RGBLED_WIDGET_BATTERY_LEVEL_HIGH
-    default 30
-
-config RGBLED_WIDGET_BATTERY_LEVEL_CRITICAL
-    default 10
-
-endif
+# ==================================================
+# RGB
+# ==================================================
+CONFIG_ZMK_RGB_UNDERGLOW=y
