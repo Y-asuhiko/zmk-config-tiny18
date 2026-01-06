@@ -146,6 +146,16 @@
             bindings = <&kp BACKSPACE>;
             key-positions = <6 14>;
         };
+
+        BS2 {
+            bindings = <&kp BACKSPACE>;
+            key-positions = <6 7>;
+        };
+
+        alt {
+            bindings = <&kp RIGHT_ALT>;
+            key-positions = <5 13>;
+        };
     };
 
     keymap {
@@ -153,13 +163,13 @@
 
         default_layer {
             bindings = <
-&mt RIGHT_SHIFT TAB  &kp U  &kp MINUS  &kp K  &kp R  &kp Y  &kp E  &kp I  &kp A  &kp O  &kp T  &kp N  &kp S  &mt LEFT_ALT H  &mt LCTRL BACKSPACE  &lt 1 SPACE  &lt 3 ENTER  &lt 2 PERIOD
+&mt RIGHT_SHIFT TAB  &kp U  &kp MINUS  &kp K  &kp R  &kp Y  &kp E  &kp I  &kp A  &kp O  &kp T  &kp N  &kp S  &kp H  &mt LCTRL BACKSPACE  &lt 1 SPACE  &lt 3 ENTER  &lt 2 PERIOD
             >;
         };
 
         layer_1 {
             bindings = <
-&trans  &trans  &kp EQUAL  &kp G  &kp M  &kp P  &trans  &trans  &trans  &trans  &kp D  &kp Z  &kp J  &mt B RIGHT_ALT  &trans  &trans  &trans  &kp COMMA
+&trans  &trans  &kp EQUAL  &kp G  &kp M  &kp P  &trans  &trans  &trans  &trans  &kp D  &kp Z  &kp J  &kp B  &trans  &trans  &kp COMMA  &kp COMMA
             >;
         };
 
