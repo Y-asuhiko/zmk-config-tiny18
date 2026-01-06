@@ -17,9 +17,10 @@
 #     cmake-args: -DCONFIG_ZMK_USB_LOGGING=y
 #     artifact-name: corne_left_with_logging
 #
+
 ---
 include:
-  # 右手 = central（Studioを使うためのスニペットを付与）
+  # 右手 = central
   - board: xiao_ble
     shield: "tiny18_r rgbled_adapter"
     snippet: studio-rpc-usb-uart
@@ -31,7 +32,7 @@ include:
     shield: "tiny18_l rgbled_adapter"
     artifact-name: tiny18_left_peripheral
 
-  # リセット用ファーム（分割間bond/BTプロフィール等のNVS設定を全消去）
+  # リセット用ファーム
   - board: xiao_ble
     shield: settings_reset
     artifact-name: settings_reset_all
