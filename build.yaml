@@ -1,4 +1,3 @@
-
 # This file generates the GitHub Actions matrix.
 # For simple board + shield combinations, add them to the top level board and
 # shield arrays, for more control, add individual board + shield combinations
@@ -17,24 +16,17 @@
 #     cmake-args: -DCONFIG_ZMK_USB_LOGGING=y
 #     artifact-name: corne_left_with_logging
 #
-
-
 ---
 include:
-  # 右手 = central
   - board: xiao_ble
     shield: "tiny18_r rgbled_adapter"
     snippet: studio-rpc-usb-uart
-    cmake-args: "-DCONFIG_ZMK_STUDIO=y"
-    artifact-name: tiny18_right_central
+    cmake-args: -DCONFIG_ZMK_STUDIO=y
 
-  # 左手 = peripheral
   - board: xiao_ble
     shield: "tiny18_l rgbled_adapter"
-    artifact-name: tiny18_left_peripheral
 
   # リセット用ファーム
   - board: xiao_ble
     shield: settings_reset
-    artifact-name: settings_reset_all
 
