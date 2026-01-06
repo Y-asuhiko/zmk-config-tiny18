@@ -1,57 +1,57 @@
-if SHIELD_TINY18_R
+# =========================
+# キーボード名
+# =========================
+CONFIG_ZMK_KEYBOARD_NAME="tiny18"
 
-config ZMK_KEYBOARD_NAME
-    string "tiny18"
+# =========================
+# BLE / Bluetooth
+# =========================
+CONFIG_ZMK_BLE=y
+CONFIG_BT=y
+CONFIG_BT_PERIPHERAL=y
+CONFIG_BT_DEVICE_NAME="tiny18"
+CONFIG_BT_MAX_CONN=1
 
-config ZMK_BLE
-    bool "Enable BLE"
-    default y
+# Advertising 無制限
+CONFIG_ZMK_BLE_ADV_TIMEOUT=0
+CONFIG_ZMK_BLE_ADV_INTERVAL=100
 
-config_ZMK_HID_KEYBOARD=y
+# =========================
+# HID（※再定義しない）
+# =========================
+CONFIG_ZMK_HID_KEYBOARD=y
+CONFIG_ZMK_HID_CONSUMER=y
+CONFIG_ZMK_HID_MOUSE=y
 
-config ZMK_SPLIT_ROLE_CENTRAL
-    bool "Split Central Role"
-    default y
+# =========================
+# Split 設定
+# =========================
+CONFIG_ZMK_SPLIT=y
+CONFIG_ZMK_SPLIT_ROLE_CENTRAL=y
 
-config ZMK_BLE_ADV_TIMEOUT
-    int "BLE advertising timeout (s)"
-    default 0
+# =========================
+# 入力 / ポインティング
+# =========================
+CONFIG_INPUT=y
+CONFIG_KSCAN=y
+CONFIG_ZMK_POINTING=y
 
-config ZMK_BLE_ADV_INTERVAL
-    int "BLE advertising interval (ms)"
-    default 100
+# =========================
+# RGB / Battery Widget
+# =========================
+CONFIG_RGBLED_WIDGET_BATTERY_LEVEL_HIGH=30
+CONFIG_RGBLED_WIDGET_BATTERY_LEVEL_CRITICAL=10
 
-endif
+# =========================
+# USB（有線併用）
+# =========================
+CONFIG_USB_DEVICE_STACK=y
+CONFIG_USB_HID=y
+CONFIG_ZMK_USB=y
 
-if SHIELD_TINY18_R || SHIELD_TINY18_L
-
-config ZMK_SPLIT
-    bool "Enable Split"
-    default y
-
-config INPUT
-    bool "Enable Input"
-    default y
-
-config ZMK_POINTING
-    bool "Enable Pointing Device"
-    default y
-
-config RGBLED_WIDGET_BATTERY_LEVEL_HIGH
-    int "Battery Level High Threshold"
-    default 30
-
-config RGBLED_WIDGET_BATTERY_LEVEL_CRITICAL
-    int "Battery Level Critical Threshold"
-    default 10
-
-endif
-
-
-config ZMK_HID_CONSUMER
-    bool "Enable Consumer HID"
-    default y
-
-config ZMK_HID_MOUSE
-    bool "Enable Mouse HID"
-    default y
+# =========================
+# 安定化（副作用防止）
+# =========================
+CONFIG_PM=n
+CONFIG_LOG=n
+CONFIG_ASSERT=n
