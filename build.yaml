@@ -1,4 +1,4 @@
-# build.yaml - tiny18 unified for GitHub Actions
+# build.yaml - tiny18 (XIAO BLE) R/L unified - 最新 ZMK 対応
 
 ---
 include:
@@ -8,21 +8,19 @@ include:
     snippet: studio-rpc-usb-uart
     cmake-args: >
       -DCONFIG_ZMK_SPLIT=y
-      -DCONFIG_ZMK_SPLIT_ROLE_CENTRAL=y
-      -DCONFIG_ZMK_BLE_ROLE_CENTRAL=y
-      -DCONFIG_ZMK_STUDIO=y
       -DCONFIG_BT=y
+      -DCONFIG_BT_CENTRAL=y
       -DCONFIG_ZMK_BLE=y
       -DCONFIG_BT_DEVICE_NAME=\"tiny18\"
+      -DCONFIG_ZMK_STUDIO=y
 
   # Left / Peripheral
   - board: xiao_ble
     shield: "tiny18_l rgbled_adapter"
     cmake-args: >
       -DCONFIG_ZMK_SPLIT=y
-      -DCONFIG_ZMK_SPLIT_ROLE_PERIPHERAL=y
-      -DCONFIG_ZMK_BLE_ROLE_PERIPHERAL=y
       -DCONFIG_BT=y
+      -DCONFIG_BT_PERIPHERAL=y
       -DCONFIG_ZMK_BLE=y
       -DCONFIG_BT_DEVICE_NAME=\"tiny18\"
 
