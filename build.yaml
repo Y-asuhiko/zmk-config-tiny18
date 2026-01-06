@@ -18,13 +18,14 @@
 #     artifact-name: corne_left_with_logging
 #
 
+
 ---
 include:
   # 右手 = central
   - board: xiao_ble
     shield: "tiny18_r rgbled_adapter"
     snippet: studio-rpc-usb-uart
-    cmake-args: -DCONFIG_ZMK_STUDIO=y
+    cmake-args: "-DCONFIG_ZMK_STUDIO=y"
     artifact-name: tiny18_right_central
 
   # 左手 = peripheral
@@ -36,4 +37,4 @@ include:
   - board: xiao_ble
     shield: settings_reset
     artifact-name: settings_reset_all
-``
+
