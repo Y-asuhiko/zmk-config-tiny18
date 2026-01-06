@@ -7,6 +7,8 @@ config ZMK_BLE
     bool "Enable BLE"
     default y
 
+config_ZMK_HID_KEYBOARD=y
+
 config ZMK_SPLIT_ROLE_CENTRAL
     bool "Split Central Role"
     default y
