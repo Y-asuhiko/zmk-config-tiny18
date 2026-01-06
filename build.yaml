@@ -1,28 +1,33 @@
-# build.yaml - tiny18 (XIAO BLE) GitHub Actions matrix
-# 全文固定版
+if SHIELD_TINY18_R
 
----
-include:
-  # Right / Central
-  - board: xiao_ble
-    shield: "tiny18_r rgbled_adapter"
-    snippet: studio-rpc-usb-uart
-    cmake-args: >
-      -DCONFIG_ZMK_STUDIO=y
-      -DCONFIG_BT=y
-      -DCONFIG_BT_CENTRAL=y
-      -DCONFIG_ZMK_BLE=y
-      -DCONFIG_BT_DEVICE_NAME="tiny18_r"
+config ZMK_KEYBOARD_NAME
+    default "tiny18"
 
-  # Left / Peripheral
-  - board: xiao_ble
-    shield: "tiny18_l rgbled_adapter"
-    cmake-args: >
-      -DCONFIG_BT=y
-      -DCONFIG_BT_PERIPHERAL=y
-      -DCONFIG_ZMK_BLE=y
-      -DCONFIG_BT_DEVICE_NAME="tiny18_l"
+config ZMK_BLE
+    default y
 
-  # Optional: settings reset firmware
-  - board: xiao_ble
-    shield: settings_reset
+config ZMK_SPLIT_ROLE_CENTRAL
+    default y
+
+endif
+
+if SHIELD_TINY18_R || SHIELD_TINY18_L
+
+
+config ZMK_SPLIT
+    default y
+
+config INPUT
+    default y
+
+config ZMK_POINTING
+    default y
+
+
+config RGBLED_WIDGET_BATTERY_LEVEL_HIGH
+    default 30
+
+config RGBLED_WIDGET_BATTERY_LEVEL_CRITICAL
+    default 10
+
+endif
