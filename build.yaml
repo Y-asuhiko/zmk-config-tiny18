@@ -19,12 +19,22 @@
 ---
 include:
   - board: xiao_ble
-    shield: tiny18_r rgbled_adapter
+    shield: tiny18 rgbled_adapter
     snippet: studio-rpc-usb-uart
-    cmake-args: -DCONFIG_ZMK_STUDIO=y
+    cmake-args: >
+      -DCONFIG_ZMK_STUDIO=y
+      -DOVERLAY_CONFIG=boards/shields/tiny18/tiny18_r.overlay
+    artifact-name: tiny18_right
+
   - board: xiao_ble
-    shield: tiny18_l rgbled_adapter
+    shield: tiny18 rgbled_adapter
+    cmake-args: >
+      -DOVERLAY_CONFIG=boards/shields/tiny18/tiny18_l.overlay
+    artifact-name: tiny18_left
 
   # ← リセット用ファーム
   - board: xiao_ble
     shield: settings_reset
+    cmake-args: >
+      -DCONFIG_ZMK_KEYBOARD_NAME="tiny18o"
+    artifact-name: tiny18o_reset
