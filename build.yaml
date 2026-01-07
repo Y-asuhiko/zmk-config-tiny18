@@ -19,7 +19,7 @@
 ---
 include:
   - board: xiao_ble
-    shield: tiny18 rgbled_adapter
+    shield: tiny18
     snippet: studio-rpc-usb-uart
     cmake-args: >
       -DCONFIG_ZMK_STUDIO=y
@@ -27,7 +27,7 @@ include:
     artifact-name: tiny18_right
 
   - board: xiao_ble
-    shield: tiny18 rgbled_adapter
+    shield: tiny18
     cmake-args: >
       -DOVERLAY_CONFIG=boards/shields/tiny18/tiny18_l.overlay
     artifact-name: tiny18_left
