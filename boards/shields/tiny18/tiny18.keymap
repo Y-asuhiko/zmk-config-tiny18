@@ -9,74 +9,151 @@
     combos {
         compatible = "zmk,combos";
 
+        kakko1-1 {
+            bindings = <&kp LEFT_BRACKET>;
+            key-positions = <0 1>;
+            layers = <0>;
+        };
+
+        kakko1-2 {
+            bindings = <&kp RIGHT_BRACKET>;
+            key-positions = <2 0>;
+            layers = <0>;
+        };
+
+        kakko2-1 {
+            bindings = <&kp LEFT_PARENTHESIS>;
+            key-positions = <1 0>;
+            layers = <1>;
+        };
+
+        kakko2-2 {
+            bindings = <&kp RIGHT_PARENTHESIS>;
+            key-positions = <2 0>;
+            layers = <1>;
+        };
+
+        del {
+            bindings = <&kp DEL>;
+            key-positions = <0 7>;
+            layers = <0 1>;
+        };
+
+        z {
+            bindings = <&kp Z>;
+            key-positions = <7 6>;
+            layers = <1 0>;
+        };
+
+        c {
+            bindings = <&kp C>;
+            key-positions = <7 8>;
+            layers = <1 0>;
+        };
+
+        v {
+            bindings = <&kp V>;
+            key-positions = <8 9>;
+            layers = <1 0>;
+        };
+
+        x {
+            bindings = <&kp X>;
+            key-positions = <1 2>;
+            layers = <0 1>;
+        };
+
+        w {
+            bindings = <&kp W>;
+            key-positions = <4 3>;
+            layers = <0 1>;
+        };
+
         q {
             bindings = <&kp Q>;
-            key-positions = <1 0>;
+            key-positions = <3 5>;
+            layers = <0 1>;
+        };
+
+        l {
+            bindings = <&kp L>;
+            key-positions = <4 12>;
+            layers = <0 1>;
         };
 
         f {
             bindings = <&kp F>;
-            key-positions = <1 2>;
+            key-positions = <4 10>;
+            layers = <0 1>;
         };
 
-        y {
-            bindings = <&kp Y>;
-            key-positions = <3 4>;
-        };
-
-        p {
-            bindings = <&kp P>;
-            key-positions = <4 5>;
-        };
-
-        g {
-            bindings = <&kp G>;
-            key-positions = <8 9>;
-        };
-
-        j {
-            bindings = <&kp J>;
+        ques {
+            bindings = <&kp QUESTION>;
             key-positions = <10 11>;
+            layers = <0 1>;
+        };
+
+        excl {
+            bindings = <&kp EXCLAMATION>;
+            key-positions = <11 12>;
+            layers = <0 1>;
+        };
+
+        comm {
+            bindings = <&kp COMMA>;
+            key-positions = <12 13>;
+            layers = <0 1>;
+        };
+
+        L4 {
+            bindings = <&mo 4>;
+            key-positions = <12 5>;
+            layers = <0 1>;
+        };
+
+        esc {
+            bindings = <&kp ESCAPE>;
+            key-positions = <6 0>;
+            layers = <0 1>;
         };
 
         lang1 {
-            bindings = <&mt LEFT_GUI LANGUAGE_1>;
-            key-positions = <7 8>;
+            bindings = <&kp LANG1>;
+            key-positions = <16 17>;
+            layers = <0>;
         };
 
-        lang2 {
-            bindings = <&mt RIGHT_GUI LANGUAGE_2>;
-            key-positions = <11 12>;
+        lang {
+            bindings = <&kp LANG2>;
+            key-positions = <15 14>;
+            layers = <0>;
         };
 
-        lsft {
-            bindings = <&kp LSHFT>;
+        f10 {
+            bindings = <&kp F10>;
+            key-positions = <14 17>;
+            layers = <0>;
+        };
+
+        w2 {
+            bindings = <&kp W>;
+            key-positions = <4 5>;
+            layers = <0 1>;
+        };
+
+        BS {
+            bindings = <&kp BACKSPACE>;
+            key-positions = <6 14>;
+        };
+
+        BS2 {
+            bindings = <&kp BACKSPACE>;
             key-positions = <6 7>;
         };
 
-        lgui {
-            bindings = <&kp LCTRL>;
-            key-positions = <14 15>;
-        };
-
-        lalt {
-            bindings = <&kp LEFT_ALT>;
-            key-positions = <16 17>;
-        };
-
-        layer3 {
-            bindings = <&lt 3 EQUAL>;
-            key-positions = <14 17>;
-        };
-
-        layer4 {
-            bindings = <&mo 4>;
-            key-positions = <15 16>;
-        };
-
-        y2 {
-            bindings = <&kp Y>;
-            key-positions = <9 10>;
+        alt {
+            bindings = <&kp RIGHT_ALT>;
+            key-positions = <5 13>;
         };
     };
 
@@ -85,31 +162,37 @@
 
         default_layer {
             bindings = <
-&lt 2 W  &kp E  &kp R  &kp U  &kp I  &kp O  &kp A  &kp S  &kp D  &kp T  &kp H  &kp K  &lt 1 L  &mt RIGHT_SHIFT ENTER  &kp Z  &kp B  &kp N  &kp M
+&mt RIGHT_SHIFT TAB  &kp U  &kp MINUS  &kp K  &kp R  &kp Y  &kp E  &kp I  &kp A  &kp O  &kp T  &kp N  &kp S  &kp H  &mt LCTRL BACKSPACE  &lt 1 SPACE  &lt 3 ENTER  &lt 2 PERIOD
             >;
         };
 
         layer_1 {
             bindings = <
-&kp X  &kp C  &kp V  &kp SLASH  &kp GRAVE  &kp DELETE  &kp LEFT_BRACKET  &kp RIGHT_BRACKET  &kp COMMA  &kp PERIOD  &kp SPACE  &kp ENTER  &trans  &kp RIGHT_SHIFT  &kp MINUS  &mt LEFT_GUI SEMICOLON  &mt RIGHT_GUI SQT  &kp BACKSPACE
+&trans  &trans  &kp EQUAL  &kp G  &kp M  &kp P  &trans  &trans  &trans  &trans  &kp D  &kp Z  &kp J  &kp B  &trans  &trans  &kp COMMA  &kp COMMA
             >;
         };
 
         layer_2 {
             bindings = <
-&trans  &kp LEFT_SHIFT  &kp LG(R)  &kp EQUAL  &kp BACKSLASH  &kp UP_ARROW  &kp LG(A)  &kp LG(S)  &kp LG(D)  &kp LG(T)  &kp BACKSPACE  &kp LEFT  &kp DOWN_ARROW  &kp RIGHT_ARROW  &kp LG(Z)  &kp ESCAPE  &kp LG(N)  &kp TAB
+&kp PLUS  &kp MINUS  &kp N5  &kp NUMBER_6  &kp ASTERISK  &kp MINUS  &kp NUMBER_1  &kp NUMBER_2  &kp NUMBER_3  &kp NUMBER_4  &kp N7  &kp N8  &kp N9  &kp N0  &trans  &trans  &trans  &trans
             >;
         };
 
         layer_3 {
             bindings = <
-&kp NUMBER_1  &kp NUMBER_2  &kp NUMBER_3  &kp NUMBER_4  &kp N5  &kp NUMBER_6  &kp N7  &kp N8  &kp LEFT_PARENTHESIS  &kp RIGHT_PARENTHESIS  &kp SLASH  &kp ASTERISK  &kp N9  &kp N0  &trans  &kp PLUS  &kp MINUS  &trans
+&mt RSHIFT TAB  &kp AT_SIGN  &kp EQUAL  &kp LEFT_ARROW  &kp UP_ARROW  &kp RIGHT_ARROW  &kp GRAVE  &kp SEMICOLON  &kp SQT  &kp NON_US_BACKSLASH  &kp HOME  &kp DOWN  &kp END  &kp LEFT_GUI  &kp COLON  &kp DOUBLE_QUOTES  &trans  &trans
             >;
         };
 
         layer_4 {
             bindings = <
-&kp F11  &kp F2  &kp F3  &kp F4  &kp F5  &kp F6  &kp F7  &kp F8  &kp F9  &kp F10  &bt BT_SEL 0  &bt BT_SEL 1  &bt BT_SEL 2  &bt BT_SEL 3  &kp F12  &trans  &trans  &bt BT_SEL 4
+&kp K_MUTE  &kp C_VOLUME_DOWN  &kp C_VOLUME_UP  &out OUT_BLE  &out OUT_USB  &none  &bt BT_SEL 0  &bt BT_SEL 1  &bt BT_SEL 2  &bt BT_SEL 3  &out OUT_TOG  &none  &none  &none  &bt BT_SEL 4  &none  &none  &none
+            >;
+        };
+
+        layer_5 {
+            bindings = <
+&trans  &trans  &trans  &trans  &trans  &trans  &bt BT_SEL 0  &bt BT_SEL 1  &bt BT_SEL 2  &bt BT_SEL 3  &bt BT_SEL 4  &trans  &trans  &trans  &trans  &trans  &trans  &trans
             >;
         };
     };
