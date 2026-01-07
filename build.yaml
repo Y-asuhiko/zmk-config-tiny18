@@ -35,6 +35,5 @@ include:
   # ← リセット用ファーム
   - board: xiao_ble
     shield: settings_reset
-    cmake-args: >
-      -DCONFIG_ZMK_KEYBOARD_NAME="tiny18o"
+    artifact-name: tiny18o_reset
     artifact-name: tiny18o_reset
