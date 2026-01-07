@@ -99,12 +99,6 @@
             layers = <0 1>;
         };
 
-        comm {
-            bindings = <&kp COMMA>;
-            key-positions = <12 13>;
-            layers = <0 1>;
-        };
-
         L4 {
             bindings = <&mo 4>;
             key-positions = <12 5>;
@@ -146,14 +140,20 @@
             key-positions = <6 14>;
         };
 
-        BS2 {
-            bindings = <&kp BACKSPACE>;
+        ctl {
+            bindings = <&kp RCTRL>;
             key-positions = <6 7>;
         };
 
         alt {
             bindings = <&kp RIGHT_ALT>;
-            key-positions = <5 13>;
+            key-positions = <13 12>;
+        };
+
+        BT_All_CLR {
+            bindings = <&bt BT_CLR_ALL>;
+            key-positions = <6 13>;
+            layers = <4>;
         };
     };
 
@@ -174,7 +174,7 @@
 
         layer_2 {
             bindings = <
-&kp PLUS  &kp MINUS  &kp N5  &kp NUMBER_6  &kp ASTERISK  &kp SLASH  &kp NUMBER_1  &kp NUMBER_2  &kp NUMBER_3  &kp NUMBER_4  &kp N7  &kp N8  &kp N9  &kp N0  &trans  &kp LEFT_SHIFT  &trans  &trans
+&kp PLUS  &kp MINUS  &kp N5  &kp NUMBER_6  &kp ASTERISK  &kp SLASH  &kp NUMBER_1  &kp NUMBER_2  &kp NUMBER_3  &kp NUMBER_4  &kp N7  &kp N8  &kp N9  &kp N0  &trans  &kp RSHFT  &trans  &trans
             >;
         };
 
