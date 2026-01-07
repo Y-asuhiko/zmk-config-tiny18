@@ -54,7 +54,7 @@ layers:
   - '9'
   - '0'
   - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
+  - Ctl+RIGHT SHIFT
   - {t: ▽, type: trans}
   - {type: held}
   '3':
