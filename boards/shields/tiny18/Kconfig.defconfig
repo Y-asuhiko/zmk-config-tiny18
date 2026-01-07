@@ -1,7 +1,7 @@
 if SHIELD_TINY18_R
 
 config ZMK_KEYBOARD_NAME
-    default "tiny18_0"
+    default "tiny18_00"
 
 config ZMK_BLE
     default y
