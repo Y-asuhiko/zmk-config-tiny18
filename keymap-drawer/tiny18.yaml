@@ -72,7 +72,7 @@ layers:
   - DOWN
   - END
   - LEFT GUI
-  - ':'
+  - RCTRL
   - '"'
   - {type: held}
   - {t: ▽, type: trans}
