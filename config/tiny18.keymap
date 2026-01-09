@@ -175,13 +175,13 @@
 
         layer_2 {
             bindings = <
-&kp PLUS  &kp MINUS  &kp N5  &kp NUMBER_6  &kp ASTERISK  &kp SLASH  &kp NUMBER_1  &kp NUMBER_2  &kp NUMBER_3  &kp NUMBER_4  &kp N7  &kp N8  &kp N9  &kp N0  &trans  &kp RSHFT  &trans  &trans
+&trans  &kp MINUS  &kp N5  &kp NUMBER_6  &kp ASTERISK  &kp SLASH  &kp NUMBER_1  &kp NUMBER_2  &kp NUMBER_3  &kp NUMBER_4  &kp N7  &kp N8  &kp N9  &kp N0  &trans  &kp PLUS  &trans  &trans
             >;
         };
 
         layer_3 {
             bindings = <
-&mt RSHIFT TAB  &kp AT_SIGN  &kp EQUAL  &kp LEFT_ARROW  &kp UP_ARROW  &kp RIGHT_ARROW  &kp GRAVE  &kp SEMICOLON  &kp SQT  &kp NON_US_BACKSLASH  &kp HOME  &kp DOWN  &kp END  &kp LEFT_GUI  &kp RCTRL  &kp DOUBLE_QUOTES  &trans  &trans
+&trans  &kp AT_SIGN  &kp EQUAL  &kp LEFT_ARROW  &kp UP_ARROW  &kp RIGHT_ARROW  &kp GRAVE  &kp SEMICOLON  &kp SQT  &kp NON_US_BACKSLASH  &kp HOME  &kp DOWN  &kp END  &kp LEFT_GUI  &kp RCTRL  &kp DOUBLE_QUOTES  &trans  &trans
             >;
         };
 
