@@ -1,7 +1,7 @@
-if SHIELD_TINY18_R
+if SHIELD_TINY18_L
 
 config ZMK_KEYBOARD_NAME
-    default "tiny18+0024"
+    default "tiny18=0024"
 
 config ZMK_BLE
     default y
