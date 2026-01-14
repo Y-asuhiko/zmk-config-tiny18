@@ -3,7 +3,7 @@ layers:
   default:
   - {t: TAB, h: RIGHT SHIFT}
   - U
-  - '-'
+  - {t: '-', h: RIGHT ALT}
   - K
   - R
   - Y
