@@ -115,7 +115,7 @@ layers:
   - ','
   - ','
 combos:
-- p: [0, 1]
+- p: [0, 5]
   k: '['
   l: [default]
 - p: [2, 0]
@@ -132,13 +132,13 @@ combos:
   l: [default, '1', '5']
 - p: [7, 6]
   k: Z
-  l: ['1', default, '5']
+  l: [default, '1', '5']
 - p: [7, 8]
   k: C
-  l: ['1', default, '5']
+  l: [default, '1', '5']
 - p: [8, 9]
   k: V
-  l: ['1', default, '5']
+  l: [default, '1', '5']
 - p: [1, 2]
   k: X
   l: [default, '1', '5']
@@ -159,7 +159,7 @@ combos:
   l: [default, '1', '5']
 - p: [11, 12]
   k: '!'
-  l: [default, '1']
+  l: [default, '1', '5']
 - p: [12, 5]
   k: '4'
   l: [default, '1', '5']
