@@ -192,8 +192,8 @@
         };
 
         layer_5 {
-            bindings = <
-&trans  &trans  &kp EQUAL  &kp G  &kp M  &kp P  &trans  &trans  &trans  &trans  &kp D  &kp Z  &kp J  &kp B  &trans  &trans  &kp COMMA  &kp COMMA
+             bindings = <
+&mt RIGHT_SHIFT TAB  &kp U  &mt RIGHT_ALT MINUS  &kp K  &kp R  &kp Y  &kp E  &kp I  &kp A  &kp O  &kp T  &kp N  &kp S  &kp H  &mt LC(RIGHT_GUI) BACKSPACE  &lt 1 SPACE  &lt 3 ENTER  &lt 2 PERIOD
             >;
         };
     };
