@@ -98,22 +98,22 @@ layers:
   '5':
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
+  - '='
+  - G
+  - M
+  - P
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
+  - D
+  - Z
+  - J
+  - B
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
+  - ','
+  - ','
 combos:
 - p: [0, 1]
   k: '['
