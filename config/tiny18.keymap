@@ -156,6 +156,16 @@
             key-positions = <6 13>;
             layers = <4>;
         };
+
+        space {
+            bindings = <&kp SPACE>;
+            key-positions = <6 15>;
+        };
+
+        entr {
+            bindings = <&kp ENTER>;
+            key-positions = <16 13>;
+        };
     };
 
     keymap {
