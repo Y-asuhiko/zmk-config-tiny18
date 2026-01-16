@@ -19,7 +19,7 @@
         kakko1-2 {
             bindings = <&kp RIGHT_BRACKET>;
             key-positions = <2 0>;
-            layers = <0>;
+            layers = <0 5>;
         };
 
         kakko2-1 {
@@ -37,61 +37,61 @@
         del {
             bindings = <&kp DEL>;
             key-positions = <0 7>;
-            layers = <0 1>;
+            layers = <0 1 5>;
         };
 
         z {
             bindings = <&kp Z>;
             key-positions = <7 6>;
-            layers = <1 0>;
+            layers = <1 0 5>;
         };
 
         c {
             bindings = <&kp C>;
             key-positions = <7 8>;
-            layers = <1 0>;
+            layers = <1 0 5>;
         };
 
         v {
             bindings = <&kp V>;
             key-positions = <8 9>;
-            layers = <1 0>;
+            layers = <1 0 5>;
         };
 
         x {
             bindings = <&kp X>;
             key-positions = <1 2>;
-            layers = <0 1>;
+            layers = <0 1 5>;
         };
 
         w {
             bindings = <&kp W>;
             key-positions = <4 3>;
-            layers = <0 1>;
+            layers = <0 1 5>;
         };
 
         q {
             bindings = <&kp Q>;
             key-positions = <3 5>;
-            layers = <0 1>;
+            layers = <0 1 5>;
         };
 
         l {
             bindings = <&kp L>;
             key-positions = <4 12>;
-            layers = <0 1>;
+            layers = <0 1 5>;
         };
 
         f {
             bindings = <&kp F>;
             key-positions = <4 10>;
-            layers = <0 1>;
+            layers = <0 1 5>;
         };
 
         ques {
             bindings = <&kp QUESTION>;
             key-positions = <10 11>;
-            layers = <0 1>;
+            layers = <0 1 5>;
         };
 
         excl {
@@ -103,37 +103,37 @@
         L4 {
             bindings = <&mo 4>;
             key-positions = <12 5>;
-            layers = <0 1>;
+            layers = <0 1 5>;
         };
 
         esc {
             bindings = <&kp ESCAPE>;
             key-positions = <6 0>;
-            layers = <0 1>;
+            layers = <0 1 5>;
         };
 
         lang1 {
             bindings = <&kp LANG1>;
             key-positions = <16 17>;
-            layers = <0>;
+            layers = <0 5>;
         };
 
         lang {
             bindings = <&kp LANG2>;
             key-positions = <15 14>;
-            layers = <0>;
+            layers = <0 5>;
         };
 
         f10 {
             bindings = <&kp F10>;
             key-positions = <14 17>;
-            layers = <0>;
+            layers = <0 5>;
         };
 
         w2 {
             bindings = <&kp W>;
             key-positions = <4 5>;
-            layers = <0 1>;
+            layers = <0 1 5>;
         };
 
         BS {
@@ -163,7 +163,7 @@
 
         default_layer {
             bindings = <
-&mt RIGHT_SHIFT TAB  &kp U  &mt RIGHT_ALT MINUS  &kp K  &kp R  &kp Y  &kp E  &kp I  &kp A  &kp O  &kp T  &kp N  &kp S  &kp H  &mt LCTRL BACKSPACE  &lt 1 SPACE  &lt 3 ENTER  &lt 2 PERIOD
+&mt RIGHT_SHIFT TAB  &kp U  &mt RIGHT_ALT MINUS  &kp K  &kp R  &kp Y  &kp E  &kp I  &kp A  &kp O  &kp T  &kp N  &kp S  &kp H  &mt LC(RIGHT_GUI) BACKSPACE  &lt 1 SPACE  &lt 3 ENTER  &lt 2 PERIOD
             >;
         };
 
@@ -187,7 +187,7 @@
 
         layer_4 {
             bindings = <
-&kp C_MUTE  &kp C_VOLUME_DOWN  &kp C_VOLUME_UP  &out OUT_BLE  &out OUT_USB  &none  &bt BT_SEL 0  &bt BT_SEL 1  &bt BT_SEL 2  &bt BT_SEL 3  &out OUT_TOG  &none  &none  &none  &bt BT_SEL 4  &none  &none  &none
+&kp C_MUTE  &kp C_VOLUME_DOWN  &kp C_VOLUME_UP  &out OUT_BLE  &out OUT_USB  &none  &bt BT_SEL 0  &bt BT_SEL 1  &bt BT_SEL 2  &bt BT_SEL 3  &out OUT_TOG  &none  &none  &to 5  &bt BT_SEL 4  &none  &to 0  &none
             >;
         };
 
