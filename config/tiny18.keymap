@@ -193,7 +193,7 @@
 
         layer_5 {
             bindings = <
-&trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans
+&trans  &trans  &kp EQUAL  &kp G  &kp M  &kp P  &trans  &trans  &trans  &trans  &kp D  &kp Z  &kp J  &kp B  &trans  &trans  &kp COMMA  &kp COMMA
             >;
         };
     };
