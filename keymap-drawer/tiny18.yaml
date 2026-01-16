@@ -15,7 +15,7 @@ layers:
   - N
   - S
   - H
-  - {t: BACKSPACE, h: LCTRL}
+  - {t: BACKSPACE, h: Ctl+RIGHT GUI}
   - {t: SPACE, h: '1'}
   - {t: ENTER, h: '3'}
   - {t: ., h: '2'}
@@ -90,10 +90,10 @@ layers:
   - OUT TOG
   - ''
   - {type: held}
-  - ''
+  - {t: '5', h: toggle}
   - {t: BT, h: '4'}
   - ''
-  - ''
+  - {t: default, h: toggle}
   - ''
   '5':
   - {t: ▽, type: trans}
@@ -120,7 +120,7 @@ combos:
   l: [default]
 - p: [2, 0]
   k: ']'
-  l: [default]
+  l: [default, '5']
 - p: [1, 0]
   k: (
   l: ['1']
@@ -129,55 +129,55 @@ combos:
   l: ['1']
 - p: [0, 7]
   k: DEL
-  l: [default, '1']
+  l: [default, '1', '5']
 - p: [7, 6]
   k: Z
-  l: ['1', default]
+  l: ['1', default, '5']
 - p: [7, 8]
   k: C
-  l: ['1', default]
+  l: ['1', default, '5']
 - p: [8, 9]
   k: V
-  l: ['1', default]
+  l: ['1', default, '5']
 - p: [1, 2]
   k: X
-  l: [default, '1']
+  l: [default, '1', '5']
 - p: [4, 3]
   k: W
-  l: [default, '1']
+  l: [default, '1', '5']
 - p: [3, 5]
   k: Q
-  l: [default, '1']
+  l: [default, '1', '5']
 - p: [4, 12]
   k: L
-  l: [default, '1']
+  l: [default, '1', '5']
 - p: [4, 10]
   k: F
-  l: [default, '1']
+  l: [default, '1', '5']
 - p: [10, 11]
   k: '?'
-  l: [default, '1']
+  l: [default, '1', '5']
 - p: [11, 12]
   k: '!'
   l: [default, '1']
 - p: [12, 5]
   k: '4'
-  l: [default, '1']
+  l: [default, '1', '5']
 - p: [6, 0]
   k: ESCAPE
-  l: [default, '1']
+  l: [default, '1', '5']
 - p: [16, 17]
   k: LANG1
-  l: [default]
+  l: [default, '5']
 - p: [15, 14]
   k: LANG2
-  l: [default]
+  l: [default, '5']
 - p: [14, 17]
   k: F10
-  l: [default]
+  l: [default, '5']
 - p: [4, 5]
   k: W
-  l: [default, '1']
+  l: [default, '1', '5']
 - p: [6, 14]
   k: BACKSPACE
 - p: [6, 7]
