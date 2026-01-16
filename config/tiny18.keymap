@@ -187,7 +187,13 @@
 
         layer_4 {
             bindings = <
-&kp K_MUTE  &kp C_VOLUME_DOWN  &kp C_VOLUME_UP  &out OUT_BLE  &out OUT_USB  &none  &bt BT_SEL 0  &bt BT_SEL 1  &bt BT_SEL 2  &bt BT_SEL 3  &out OUT_TOG  &none  &none  &none  &bt BT_SEL 4  &none  &none  &none
+&kp C_MUTE  &kp C_VOLUME_DOWN  &kp C_VOLUME_UP  &out OUT_BLE  &out OUT_USB  &none  &bt BT_SEL 0  &bt BT_SEL 1  &bt BT_SEL 2  &bt BT_SEL 3  &out OUT_TOG  &none  &none  &none  &bt BT_SEL 4  &none  &none  &none
+            >;
+        };
+
+        layer_5 {
+            bindings = <
+&trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans
             >;
         };
     };
