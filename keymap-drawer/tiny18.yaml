@@ -15,7 +15,7 @@ layers:
   - N
   - S
   - H
-  - {t: BACKSPACE, h: Ctl+RIGHT GUI}
+  - {t: BACKSPACE, h: RCTRL}
   - {t: SPACE, h: '1'}
   - {t: ENTER, h: '3'}
   - {t: ., h: '2'}
@@ -110,7 +110,7 @@ layers:
   - N
   - S
   - H
-  - {t: BACKSPACE, h: Ctl+RIGHT GUI}
+  - {t: BACKSPACE, h: RIGHT GUI}
   - {t: SPACE, h: '1'}
   - {t: ENTER, h: '3'}
   - {t: ., h: '2'}
