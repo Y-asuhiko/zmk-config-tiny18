@@ -96,24 +96,24 @@ layers:
   - {t: default, h: toggle}
   - ''
   '5':
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - '='
-  - G
-  - M
-  - P
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - D
-  - Z
-  - J
-  - B
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - ','
-  - ','
+  - {t: TAB, h: RIGHT SHIFT}
+  - U
+  - {t: '-', h: RIGHT ALT}
+  - K
+  - R
+  - Y
+  - E
+  - I
+  - A
+  - O
+  - T
+  - N
+  - S
+  - H
+  - {t: BACKSPACE, h: Ctl+RIGHT GUI}
+  - {t: SPACE, h: '1'}
+  - {t: ENTER, h: '3'}
+  - {t: ., h: '2'}
 combos:
 - p: [0, 5]
   k: '['
