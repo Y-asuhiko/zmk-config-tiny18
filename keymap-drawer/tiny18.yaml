@@ -187,3 +187,7 @@ combos:
 - p: [6, 13]
   k: BT CLR ALL
   l: ['4']
+- p: [6, 15]
+  k: SPACE
+- p: [16, 13]
+  k: ENTER

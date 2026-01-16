@@ -311,6 +311,18 @@ path.combo {
 <tspan x="600" dy="-0.6em">RIGHT</tspan><tspan x="600" dy="1.2em">ALT</tspan>
 </text>
 </g>
+<g class="combo combopos-22">
+<path d="M135,142 l-85,-6" class="combo"/>
+<path d="M135,142 l85,6" class="combo"/>
+<rect rx="6" ry="6" x="121" y="130" width="28" height="26" class="combo"/>
+<text x="135" y="142" class="combo tap">SPACE</text>
+</g>
+<g class="combo combopos-23">
+<path d="M525,142 l-85,6" class="combo"/>
+<path d="M525,142 l85,-6" class="combo"/>
+<rect rx="6" ry="6" x="511" y="130" width="28" height="26" class="combo"/>
+<text x="525" y="142" class="combo tap">ENTER</text>
+</g>
 </g>
 </g>
 <g transform="translate(30, 236)" class="layer-1">
@@ -474,6 +486,18 @@ path.combo {
 <tspan x="600" dy="-0.6em">RIGHT</tspan><tspan x="600" dy="1.2em">ALT</tspan>
 </text>
 </g>
+<g class="combo combopos-19">
+<path d="M135,142 l-85,-6" class="combo"/>
+<path d="M135,142 l85,6" class="combo"/>
+<rect rx="6" ry="6" x="121" y="130" width="28" height="26" class="combo"/>
+<text x="135" y="142" class="combo tap">SPACE</text>
+</g>
+<g class="combo combopos-20">
+<path d="M525,142 l-85,6" class="combo"/>
+<path d="M525,142 l85,-6" class="combo"/>
+<rect rx="6" ry="6" x="511" y="130" width="28" height="26" class="combo"/>
+<text x="525" y="142" class="combo tap">ENTER</text>
+</g>
 </g>
 </g>
 <g transform="translate(30, 472)" class="layer-2">
@@ -570,6 +594,18 @@ path.combo {
 <text x="600" y="112" class="combo tap">
 <tspan x="600" dy="-0.6em">RIGHT</tspan><tspan x="600" dy="1.2em">ALT</tspan>
 </text>
+</g>
+<g class="combo combopos-3">
+<path d="M135,142 l-85,-6" class="combo"/>
+<path d="M135,142 l85,6" class="combo"/>
+<rect rx="6" ry="6" x="121" y="130" width="28" height="26" class="combo"/>
+<text x="135" y="142" class="combo tap">SPACE</text>
+</g>
+<g class="combo combopos-4">
+<path d="M525,142 l-85,6" class="combo"/>
+<path d="M525,142 l85,-6" class="combo"/>
+<rect rx="6" ry="6" x="511" y="130" width="28" height="26" class="combo"/>
+<text x="525" y="142" class="combo tap">ENTER</text>
 </g>
 </g>
 </g>
@@ -670,6 +706,18 @@ path.combo {
 <text x="600" y="112" class="combo tap">
 <tspan x="600" dy="-0.6em">RIGHT</tspan><tspan x="600" dy="1.2em">ALT</tspan>
 </text>
+</g>
+<g class="combo combopos-3">
+<path d="M135,142 l-85,-6" class="combo"/>
+<path d="M135,142 l85,6" class="combo"/>
+<rect rx="6" ry="6" x="121" y="130" width="28" height="26" class="combo"/>
+<text x="135" y="142" class="combo tap">SPACE</text>
+</g>
+<g class="combo combopos-4">
+<path d="M525,142 l-85,6" class="combo"/>
+<path d="M525,142 l85,-6" class="combo"/>
+<rect rx="6" ry="6" x="511" y="130" width="28" height="26" class="combo"/>
+<text x="525" y="142" class="combo tap">ENTER</text>
 </g>
 </g>
 </g>
@@ -789,6 +837,18 @@ path.combo {
 <text x="330" y="135" class="combo tap">
 <tspan x="330" dy="-0.6em">BT</tspan><tspan x="330" dy="1.2em">…</tspan>
 </text>
+</g>
+<g class="combo combopos-4">
+<path d="M135,142 l-85,-6" class="combo"/>
+<path d="M135,142 l85,6" class="combo"/>
+<rect rx="6" ry="6" x="121" y="130" width="28" height="26" class="combo"/>
+<text x="135" y="142" class="combo tap">SPACE</text>
+</g>
+<g class="combo combopos-5">
+<path d="M525,142 l-85,6" class="combo"/>
+<path d="M525,142 l85,-6" class="combo"/>
+<rect rx="6" ry="6" x="511" y="130" width="28" height="26" class="combo"/>
+<text x="525" y="142" class="combo tap">ENTER</text>
 </g>
 </g>
 </g>
@@ -972,6 +1032,18 @@ path.combo {
 <text x="600" y="112" class="combo tap">
 <tspan x="600" dy="-0.6em">RIGHT</tspan><tspan x="600" dy="1.2em">ALT</tspan>
 </text>
+</g>
+<g class="combo combopos-21">
+<path d="M135,142 l-85,-6" class="combo"/>
+<path d="M135,142 l85,6" class="combo"/>
+<rect rx="6" ry="6" x="121" y="130" width="28" height="26" class="combo"/>
+<text x="135" y="142" class="combo tap">SPACE</text>
+</g>
+<g class="combo combopos-22">
+<path d="M525,142 l-85,6" class="combo"/>
+<path d="M525,142 l85,-6" class="combo"/>
+<rect rx="6" ry="6" x="511" y="130" width="28" height="26" class="combo"/>
+<text x="525" y="142" class="combo tap">ENTER</text>
 </g>
 </g>
 </g>
