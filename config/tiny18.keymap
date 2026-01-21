@@ -12,7 +12,7 @@
 
         kakko1-1 {
             bindings = <&kp LEFT_BRACKET>;
-            key-positions = <0 5>;
+            key-positions = <0 1>;
             layers = <0>;
         };
 
