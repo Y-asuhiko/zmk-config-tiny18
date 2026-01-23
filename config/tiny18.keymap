@@ -141,11 +141,6 @@
             key-positions = <6 14>;
         };
 
-        ctl {
-            bindings = <&kp RCTRL>;
-            key-positions = <6 7>;
-        };
-
         alt {
             bindings = <&kp RIGHT_ALT>;
             key-positions = <13 12>;
@@ -165,6 +160,24 @@
         entr {
             bindings = <&kp ENTER>;
             key-positions = <16 13>;
+        };
+
+        eql {
+            bindings = <&kp EQUAL>;
+            key-positions = <12 13>;
+            layers = <2>;
+        };
+
+        n, {
+            bindings = <&kp COMMA>;
+            key-positions = <11 10>;
+            layers = <2>;
+        };
+
+        n. {
+            bindings = <&kp DOT>;
+            key-positions = <12 11>;
+            layers = <2>;
         };
     };
 
