@@ -180,8 +180,6 @@ combos:
   l: [default, '1', '5']
 - p: [6, 14]
   k: BACKSPACE
-- p: [6, 7]
-  k: RCTRL
 - p: [13, 12]
   k: RIGHT ALT
 - p: [6, 13]
@@ -191,3 +189,12 @@ combos:
   k: SPACE
 - p: [16, 13]
   k: ENTER
+- p: [12, 13]
+  k: '='
+  l: ['2']
+- p: [11, 10]
+  k: ','
+  l: ['2']
+- p: [12, 11]
+  k: .
+  l: ['2']
