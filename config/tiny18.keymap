@@ -168,19 +168,19 @@
 
         default_layer {
             bindings = <
-&mt RIGHT_SHIFT TAB  &kp U  &mt RIGHT_ALT MINUS  &kp K  &kp R  &kp Y  &kp E  &kp I  &kp A  &kp O  &kp T  &kp N  &kp S  &kp H  &mt RCTRL BACKSPACE  &lt 1 SPACE  &lt 3 ENTER  &lt 2 PERIOD
+&mt RIGHT_ALT MINUS  &kp U  &kp E  &kp K  &kp R  &kp Y  &mt RSHIFT TAB  &kp I  &kp A  &kp O  &kp T  &kp N  &kp S  &kp H  &mt RCTRL BACKSPACE  &lt 1 SPACE  &lt 3 ENTER  &lt 2 PERIOD
             >;
         };
 
         layer_1 {
             bindings = <
-&trans  &trans  &kp EQUAL  &kp G  &kp M  &kp P  &trans  &trans  &trans  &trans  &kp D  &kp Z  &kp J  &kp B  &trans  &trans  &kp COMMA  &kp COMMA
+&kp EQUAL  &trans  &trans  &kp G  &kp M  &kp P  &trans  &trans  &trans  &trans  &kp D  &kp Z  &kp J  &kp B  &trans  &trans  &kp COMMA  &kp COMMA
             >;
         };
 
         layer_2 {
             bindings = <
-&trans  &kp MINUS  &kp N5  &kp NUMBER_6  &kp ASTERISK  &kp SLASH  &kp NUMBER_1  &kp NUMBER_2  &kp NUMBER_3  &kp NUMBER_4  &kp N7  &kp N8  &kp N9  &kp N0  &trans  &kp PLUS  &trans  &trans
+&kp PLUS  &kp MINUS  &kp N5  &kp NUMBER_6  &kp ASTERISK  &kp SLASH  &kp NUMBER_1  &kp NUMBER_2  &kp NUMBER_3  &kp NUMBER_4  &kp N7  &kp N8  &kp N9  &kp N0  &trans  &kp RSHIFT  &trans  &trans
             >;
         };
 
