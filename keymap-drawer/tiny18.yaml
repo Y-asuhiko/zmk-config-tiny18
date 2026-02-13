@@ -1,13 +1,13 @@
 layout: {zmk_keyboard: tiny18}
 layers:
   default:
-  - {t: TAB, h: RIGHT SHIFT}
-  - U
   - {t: '-', h: RIGHT ALT}
+  - U
+  - E
   - K
   - R
   - Y
-  - E
+  - {t: TAB, h: RSHIFT}
   - I
   - A
   - O
@@ -20,9 +20,9 @@ layers:
   - {t: ENTER, h: '3'}
   - {t: ., h: '2'}
   '1':
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
   - '='
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
   - G
   - M
   - P
@@ -39,7 +39,7 @@ layers:
   - ','
   - ','
   '2':
-  - {t: ▽, type: trans}
+  - +
   - '-'
   - '5'
   - '6'
@@ -54,7 +54,7 @@ layers:
   - '9'
   - '0'
   - {t: ▽, type: trans}
-  - +
+  - RSHIFT
   - {t: ▽, type: trans}
   - {type: held}
   '3':
